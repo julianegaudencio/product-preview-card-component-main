@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 364px;
+    background-color: white;
+    border-radius: 10px 10px;
+}
+
+img {
+    width: 250px;
+    height: 364px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 24px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p { 
+    width: 210px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+
+.card-value {
+    display: flex;
+    width: 200px;
+}
+
+.value-real {
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+.value-false {
+    margin-left: 15px;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+button {
+    background: hsl(158, 36%, 37%) url(images/icon-cart.svg) no-repeat;
+    background-size: 12px;
+    background-position-x: 50px;
+    background-position-y: 10px;
+    border-color: hsla(158, 36%, 37%, 0);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 180px;
+    height: 35px;
+
+}
+
+.attribution {
+    position: absolute;
+    top: 96%;
+}
+
+.attribution a {
+    text-decoration: none;
+}
